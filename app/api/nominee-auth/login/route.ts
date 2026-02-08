@@ -16,7 +16,12 @@ export async function POST(request: NextRequest) {
     // Find nominee by phone
     const nominee = await prisma.nominee.findFirst({
       where: { phone: validatedData.phone },
-      include: {
+      select: {
+        id: true,
+        fullName: true,
+        phone: true,
+        email: true,
+        password: true,
         user: {
           select: {
             id: true,
