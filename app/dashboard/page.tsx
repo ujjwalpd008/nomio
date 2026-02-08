@@ -118,7 +118,7 @@ export default function DashboardPage() {
       <div className="max-w-7xl mx-auto pb-8">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Dashboard</h1>
-          <p className="text-gray-600">Manage your accounts and view accounts you're nominated for</p>
+          <p className="text-gray-600">Manage your accounts and view accounts you&apos;re nominated for</p>
         </div>
 
         {/* Tabs */}
@@ -275,14 +275,14 @@ export default function DashboardPage() {
         {/* Nominated Accounts Tab */}
         {activeTab === 'nominated' && (
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Accounts I'm Nominated For</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Accounts I&apos;m Nominated For</h2>
 
             {nominatedAccounts.length === 0 ? (
               <div className="bg-white rounded-lg shadow p-12 text-center">
                 <Users className="h-16 w-16 text-gray-400 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">No nominations yet</h3>
                 <p className="text-gray-600">
-                  You haven't been nominated for any accounts. When someone adds you as a nominee, 
+                  You haven&apos;t been nominated for any accounts. When someone adds you as a nominee, 
                   those accounts will appear here.
                 </p>
               </div>

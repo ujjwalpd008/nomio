@@ -84,7 +84,7 @@ export default function NotificationsPage() {
             <Bell className="h-16 w-16 text-gray-400 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">No notifications</h3>
             <p className="text-gray-600">
-              You don't have any nudges or messages yet. When someone sends you a nudge, it will appear here.
+              You don&apos;t have any nudges or messages yet. When someone sends you a nudge, it will appear here.
             </p>
           </div>
         ) : (
@@ -177,8 +177,8 @@ export default function NotificationsPage() {
         <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6">
           <h3 className="text-lg font-semibold text-blue-900 mb-2">About Nudges</h3>
           <p className="text-sm text-blue-800">
-            Account holders can send you nudges to remind you about accounts you're nominated for, 
-            ask you to sign up, or share important information. These messages help ensure you're 
+            Account holders can send you nudges to remind you about accounts you&apos;re nominated for, 
+            ask you to sign up, or share important information. These messages help ensure you&apos;re 
             aware of your entitlements and can claim them when needed.
           </p>
         </div>

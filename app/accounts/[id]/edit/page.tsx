@@ -27,6 +27,7 @@ export default function EditAccountPage() {
 
   useEffect(() => {
     Promise.all([fetchAccount(), fetchNominees()])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const fetchAccount = async () => {

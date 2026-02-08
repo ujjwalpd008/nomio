@@ -17,6 +17,7 @@ export default function EditTrustedContactPage() {
 
   useEffect(() => {
     fetchContact()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const fetchContact = async () => {

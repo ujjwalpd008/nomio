@@ -86,7 +86,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-6">The Problem We Solve</h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-700 mb-4">
-              In India alone, hundreds of crores remain unclaimed because nominees don't know they've been named or what assets they're entitled to.
+              In India alone, hundreds of crores remain unclaimed because nominees don&apos;t know they&apos;ve been named or what assets they&apos;re entitled to.
             </p>
             <p className="text-lg text-gray-700">
               Our platform ensures that your nominees are informed and can easily access their entitlements, preventing unclaimed assets and providing peace of mind.

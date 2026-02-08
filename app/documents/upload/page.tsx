@@ -105,7 +105,7 @@ export default function UploadDocumentPage() {
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
           <h3 className="text-lg font-semibold text-blue-900 mb-2">Why upload documents?</h3>
           <ul className="text-sm text-blue-800 space-y-2 list-disc list-inside">
-            <li>Help nominees identify and claim accounts/assets they're entitled to</li>
+            <li>Help nominees identify and claim accounts/assets they&apos;re entitled to</li>
             <li>Provide necessary paperwork for financial institutions</li>
             <li>Store account statements, policy documents, or claim forms</li>
             <li>Mark critical documents that nominees must access</li>
@@ -137,7 +137,7 @@ export default function UploadDocumentPage() {
               Document Title *
             </label>
             <p className="text-xs text-gray-500 mb-2">
-              Give a clear, descriptive title (e.g., "Bank Account Statement - HDFC", "Life Insurance Policy Document")
+              Give a clear, descriptive title (e.g., &quot;Bank Account Statement - HDFC&quot;, &quot;Life Insurance Policy Document&quot;)
             </p>
             <input
               id="title"
@@ -155,7 +155,7 @@ export default function UploadDocumentPage() {
               Description (Optional)
             </label>
             <p className="text-xs text-gray-500 mb-2">
-              Add any additional context or instructions for nominees (e.g., "Keep this for claim process", "Required by institution")
+              Add any additional context or instructions for nominees (e.g., &quot;Keep this for claim process&quot;, &quot;Required by institution&quot;)
             </p>
             <textarea
               id="description"

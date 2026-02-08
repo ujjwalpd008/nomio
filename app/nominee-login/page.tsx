@@ -100,7 +100,7 @@ export default function NomineeLoginPage() {
 
         <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
           <p className="text-sm text-blue-800">
-            <strong>Note:</strong> If you haven't received login credentials, please contact the account holder 
+            <strong>Note:</strong> If you haven&apos;t received login credentials, please contact the account holder 
             who nominated you to set up your access.
           </p>
         </div>

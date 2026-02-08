@@ -104,7 +104,7 @@ export default function NomineeDashboardPage() {
             <Building2 className="h-16 w-16 text-gray-400 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">No accounts found</h3>
             <p className="text-gray-600">
-              You haven't been nominated for any accounts yet. Please contact the account holder.
+              You haven&apos;t been nominated for any accounts yet. Please contact the account holder.
             </p>
           </div>
         ) : (

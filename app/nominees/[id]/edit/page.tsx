@@ -21,6 +21,7 @@ export default function EditNomineePage() {
 
   useEffect(() => {
     fetchNominee()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const fetchNominee = async () => {

@@ -83,7 +83,7 @@ export default function DocumentsPage() {
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
           <p className="text-sm text-blue-800">
             <strong>💡 Tip:</strong> Upload account statements, policy documents, and claim forms. 
-            Mark documents as "Critical" to ensure nominees can access them when needed for the claim process.
+            Mark documents as &quot;Critical&quot; to ensure nominees can access them when needed for the claim process.
           </p>
         </div>
 
