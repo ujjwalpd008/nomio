@@ -68,6 +68,7 @@ export async function POST(request: NextRequest) {
     const validatedData = accountSchema.parse(body)
 
     // Validate allocation percentages sum to 100
+    let nominees: any[] = []
     if (validatedData.nominees && validatedData.nominees.length > 0) {
       const totalAllocation = validatedData.nominees.reduce(
         (sum, n) => sum + n.allocationPercentage,
@@ -82,7 +83,7 @@ export async function POST(request: NextRequest) {
 
       // Verify all nominees belong to the user
       const nomineeIds = validatedData.nominees.map(n => n.nomineeId)
-      const nominees = await prisma.nominee.findMany({
+      nominees = await prisma.nominee.findMany({
         where: {
           id: { in: nomineeIds },
           nominatedByUserId: payload.userId,
