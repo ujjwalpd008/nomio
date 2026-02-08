@@ -45,6 +45,7 @@ model Nominee {
   relationship          String
   email                 String?
   phone                 String
+  password              String?  // Password for nominee portal access
   dateOfBirth           DateTime?
   panNumber             String?
   address               String?
