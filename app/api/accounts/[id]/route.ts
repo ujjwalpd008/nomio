@@ -57,6 +57,7 @@ export async function PUT(
     }
 
     // Validate allocation percentages
+    let nominees: any[] = []
     if (validatedData.nominees && validatedData.nominees.length > 0) {
       const totalAllocation = validatedData.nominees.reduce(
         (sum, n) => sum + n.allocationPercentage,
@@ -71,7 +72,7 @@ export async function PUT(
 
       // Verify nominees belong to user
       const nomineeIds = validatedData.nominees.map(n => n.nomineeId)
-      const nominees = await prisma.nominee.findMany({
+      nominees = await prisma.nominee.findMany({
         where: {
           id: { in: nomineeIds },
           nominatedByUserId: payload.userId,
